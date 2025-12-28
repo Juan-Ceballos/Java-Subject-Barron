@@ -10,4 +10,12 @@ public class Student {
     public String getName() {
         return name;        
     }
+
+    public String greetStudent(String name) {
+        return name;
+    }
+
+    public String greetStudent(String name, int age) {
+        return("");
+    }
 }
