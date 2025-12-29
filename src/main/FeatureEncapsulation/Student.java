@@ -18,4 +18,12 @@ public class Student {
     public String greetStudent(String name, int age) {
         return("");
     }
+
+    public class GradStudent extends Student {
+        public GradStudent(String name, int age, int grade, int id) {
+            super(name, age, grade, id);
+        }                        
+    }
 }
+
+
