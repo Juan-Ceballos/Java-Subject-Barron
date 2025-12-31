@@ -29,6 +29,9 @@ public class Student {
     public class HSStudent extends Student {
         public HSStudent(String name, int age, int grade, int id, list examScores) {
             super(name, age, grade, id, examScores);
+        }
+        public String greetStudent() {
+            return("");
         }                        
     }
 }
