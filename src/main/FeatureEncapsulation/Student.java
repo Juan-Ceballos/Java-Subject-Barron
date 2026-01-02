@@ -3,6 +3,8 @@ package src.main.FeatureEncapsulation;
 public class Student {
     String name;
     int[] examScores = new int[4]; 
+    Double gpa;
+    Boolean isActive;
     
     public Student(String name, int age, int grade, int id) {
         
