@@ -3,11 +3,19 @@ package src.main.FeatureEncapsulation;
 public class Student {
     String name;
     int[] examScores = new int[4]; 
-    Double gpa;
-    Boolean isActive;
+    double gpa;
+    boolean isActive;
     
     public Student(String name, int age, int grade, int id) {
         
+    }
+
+    public Double calcAverage() {
+        double average = 0;
+        for (int score: examScores) {
+            average += score;
+        }
+        return average / 2;
     }
 
     public String getName() {
@@ -29,9 +37,10 @@ public class Student {
     }
 
     public class HSStudent extends Student {
-        public HSStudent(String name, int age, int grade, int id, list examScores) {
-            super(name, age, grade, id, examScores);
+        public HSStudent(String name, int age, int grade, int id, int[] examScores) {
+            super(name, age, grade, id);
         }
+
         public String greetStudent() {
             return("");
         }                        
