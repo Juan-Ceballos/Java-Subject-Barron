@@ -9,6 +9,7 @@ import src.main.FeatureEncapsulation.Time;
 public class FeaturesJApplication {
     public void display(Time t) {
         /*
+        Chapter 2 Q3
         Wrong Answer
         printing t.myHrs, etc.
         Time class has private fields, and a 
@@ -22,8 +23,19 @@ public class FeaturesJApplication {
         BankAccount juanBankAccount = new BankAccount();
         System.out.println(juanBankAccount.myBalance);
         ArrayList<Student> studentList = new ArrayList<Student>();
-
-        
+        /*
+        chapter 2 Q7
+        Date d = new Date(1, 13, 2002);
+        int xdate = d.day();
+        int ydate = d.myYear();
+         */
+        // myYear() private, day is actually a method in the class
+        // chapter 2 Q8 - in class can use vars, it's methods
+        // this, in class prints current date object and to string will print it
+        // chapter 2 Q11 - recentDate initialized as null and passed, method can
+        // replace object reference
+        // chapter 2 Q12 - reudce() method will be used only in implementation of 
+        // instance emthods of the class 
     }
     
 }
