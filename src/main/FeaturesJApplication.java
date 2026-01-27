@@ -35,7 +35,7 @@ public class FeaturesJApplication {
         // chapter 2 Q11 - recentDate initialized as null and passed, method can
         // replace object reference
         // chapter 2 Q12 - reudce() method will be used only in implementation of 
-        // instance emthods of the class 
+        // instance emthods of the class so not public method
     }
     
 }
