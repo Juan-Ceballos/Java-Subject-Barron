@@ -37,6 +37,10 @@ public class Student {
         }
     }
 
+    public double updateGrade(double value) {
+        return gpa + value;
+    }
+
     public class GradStudent extends Student {
         public GradStudent(String name, int age, int grade, int id) {
             super(name, age, grade, id);
