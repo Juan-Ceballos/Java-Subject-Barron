@@ -41,6 +41,14 @@ public class Student {
         return gpa + value;
     }
 
+    public double getGPA() {
+        return gpa;
+    }
+
+    public setGPA() {
+        gpa = 0;
+    }
+
     public class GradStudent extends Student {
         public GradStudent(String name, int age, int grade, int id) {
             super(name, age, grade, id);
