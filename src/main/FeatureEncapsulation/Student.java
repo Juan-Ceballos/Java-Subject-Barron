@@ -45,7 +45,7 @@ public class Student {
         return gpa;
     }
 
-    public setGPA() {
+    public void setGPA() {
         gpa = 0;
     }
 
