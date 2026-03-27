@@ -5,6 +5,10 @@ public class Student {
     int[] examScores = new int[4]; 
     double gpa;
     boolean isActive;
+
+    public Student() {
+        
+    }
     
     public Student(String name, int age, int grade, int id) {
         
