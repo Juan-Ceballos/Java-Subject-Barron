@@ -2,16 +2,22 @@ package src.main.FeatureEncapsulation;
 
 public class Student {
     String name;
-    int[] examScores = new int[4]; 
+    int[] examScores = new int[1]; 
     double gpa;
     boolean isActive;
 
     public Student() {
-        
+        name = "";
+        examScores = new int[0];
+        isActive = false;
+        gpa = 0.0;
     }
-    
-    public Student(String name, int age, int grade, int id) {
-        
+
+    public Student(String nameA, double gpaA, int[] examScoresA, boolean isActiveA) {
+        name = nameA;
+        gpa = gpaA;
+        examScores = examScoresA;  
+        isActive = isActiveA;                 
     }
 
     public Double calcAverage() {
@@ -57,15 +63,16 @@ public class Student {
         public GradStudent() {
             super();
         }
-        
-        public GradStudent(String name, int age, int grade, int id) {
-            super(name, age, grade, id);
-        }                        
+
+        public GradStudent(String name, double gpa, int[] examScores, boolean isActive) {
+            super(name, gpa, examScores, isActive);                      
+        }
+                              
     }
 
     public class HSStudent extends Student {
         public HSStudent(String name, int age, int grade, int id, int[] examScores) {
-            super(name, age, grade, id);
+        
         }
 
         public String greetStudent() {
