@@ -54,6 +54,10 @@ public class Student {
     }
 
     public class GradStudent extends Student {
+        public GradStudent() {
+            super();
+        }
+        
         public GradStudent(String name, int age, int grade, int id) {
             super(name, age, grade, id);
         }                        
