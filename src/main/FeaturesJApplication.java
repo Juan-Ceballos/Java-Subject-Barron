@@ -25,7 +25,8 @@ public class FeaturesJApplication {
         System.out.println(juanBankAccount.myBalance);
         ArrayList<Student> studentList = new ArrayList<Student>();
         Student s = new Student();
-        Student.GradStudent g = s.new GradStudent();
+        Student g = s.new GradStudent();
+        Student.GradStudent gs = s.new GradStudent();
         /*
         chapter 2 Q7
         Date d = new Date(1, 13, 2002);

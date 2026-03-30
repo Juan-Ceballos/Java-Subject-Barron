@@ -39,7 +39,7 @@ public class Student {
     public String greetStudent(String name, int age) {
         return("");
     }
-
+ 
     public void printGrades() {
         int i = 0;
         while (i < examScores[i]) {
