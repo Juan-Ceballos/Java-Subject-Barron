@@ -27,7 +27,6 @@ public class FeaturesJApplication {
         Student s = new Student();
         Student g = s.new GradStudent();
         Student.GradStudent gs = s.new GradStudent();
-        System.out.println(s.studentList)
         /*
         chapter 2 Q7
         Date d = new Date(1, 13, 2002);
